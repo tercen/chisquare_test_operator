@@ -1,9 +1,9 @@
 {
-  "name": "Template R operator",
-  "description": "Return the medium value of a cell",
-  "tags": ["template"],
+  "name": "Chi-square test",
+  "description": "Performs a chi-square test on a set of data points.",
+  "tags": ["statistical testing", "test"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_R_operator"],
+  "urls": ["https://github.com/tercen/chisquare_test_operator"],
   "properties": []
 }
 
