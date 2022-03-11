@@ -1,0 +1,13 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "Chi-test",
+  "namespace": "ds11",
+  "inputDataUri": "c06_super_2group_control.tsv",
+  "outputDataUri": ["table1.csv","table2.csv"],
+  "columns": ["Variable"],
+  "rows": ["Group"],
+  "colors": ["Supergroup"],
+  "labels": [],
+  "yAxis": "Measurement",
+  "xAxis": ""
+}
