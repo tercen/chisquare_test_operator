@@ -1,10 +1,14 @@
 {
   "name": "Chi-squared test",
   "description": "Determines whether there is a statistically significant difference between the expected frequencies and the observed frequencies in a contingency table.",
-  "tags": ["statistical testing", "test"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/chisquare_test_operator"],
+  "tags": [
+    "statistical testing"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/chisquare_test_operator"
+  ],
   "properties": []
 }
-
-
