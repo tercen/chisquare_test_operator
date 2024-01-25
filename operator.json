@@ -1,6 +1,6 @@
 {
-  "name": "Chi-squared test",
-  "description": "Determines whether there is a statistically significant difference between the expected frequencies and the observed frequencies in a contingency table.",
+  "name": "Chi-squared Test",
+  "description": "Compares the expected and observed frequencies in a contingency table using a chi-squared statistical test.",
   "tags": [
     "statistical testing"
   ],
