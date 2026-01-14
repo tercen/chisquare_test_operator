@@ -23,20 +23,20 @@
             "kind": "MetaFactor",
             "name": "Category 1",
             "type": "",
-            "description": "First category",
+            "description": "First category (row factor)",
             "ontologyMapping": "variable",
             "crosstabMapping": "row",
-            "cardinality": "1..n",
+            "cardinality": "1",
             "factors": []
           },
           {
             "kind": "MetaFactor",
-            "name": "Category 2",
+            "name": "Column",
             "type": "",
-            "description": "Second category",
+            "description": "Optional column stratification factor",
             "ontologyMapping": "observation",
             "crosstabMapping": "column",
-            "cardinality": "1..n",
+            "cardinality": "0..n",
             "factors": []
           }
         ],
@@ -48,9 +48,19 @@
                 "kind": "MetaFactor",
                 "name": "Measurement",
                 "type": "numeric",
-                "description": "Measurement values (counts)",
+                "description": "Measurement values",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
+                "cardinality": "1",
+                "factors": []
+              },
+              {
+                "kind": "MetaFactor",
+                "name": "Category 2",
+                "type": "",
+                "description": "Second category (color factor, required)",
+                "ontologyMapping": "group",
+                "crosstabMapping": "color",
                 "cardinality": "1",
                 "factors": []
               }
