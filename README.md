@@ -8,9 +8,9 @@ The `chisquare_test_operator` performs a chi-square test on a set of data points
 
 Input projection|.
 ---|---
-`y-axis`        | numeric, measurement
+`y-axis`        | numeric, measurement (counts)
 `row`           | character, first category
-`colors`        | character, second category 
+`column`        | character, second category
 
 Output relations|.
 ---|---
