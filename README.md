@@ -10,7 +10,8 @@ Input projection|.
 ---|---
 `y-axis`        | numeric, measurement (counts)
 `row`           | character, first category
-`column`        | character, second category
+`column`        | optional, column stratification factor
+`color`         | character, second category
 
 Output relations|.
 ---|---
